@@ -1,0 +1,74 @@
+/*estilo form geral*/
+.form-geral{
+  background: linear-gradient(180deg, purple, blue);
+  font-family:"https://fonts.google.com/specimen/Rubik?query=rubik";
+  width:  500px;
+  height: 465px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
+  color:#fff;
+}
+
+/*formatação para o meu input*/
+.form-input{
+  background: transparent;
+  color: #fff;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid #ffff;
+}
+
+input:focus{
+  outline: none;
+  border: none;
+  border-bottom: 1px #ffff solid; /*manter linha quando estiver em foco*/
+  padding: 5px;
+}
+
+/*tirando linha do fieldset*/
+fieldset{
+  border:none;
+}
+
+/*formatação de texto h1*/
+form h1{
+  letter-spacing: 10px;
+  font-weight: bolder;
+  font-family:"https://fonts.google.com/specimen/Rubik?query=rubik";
+}
+
+/*formatação link de cadastro, login*/
+.form-link {
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+a:hover{
+  color: #fff;
+  background-color: rgb(49, 146, 49);
+  border: 1px solid rgb(49, 146, 49);
+}
+
+/*formatação botão*/
+.form-button{
+  margin-top: 10px;
+  margin-bottom: -10px;
+  border-radius: 5px;
+  padding: 10px;
+  border:none;
+  cursor: pointer;/*alterando o cursor do mouse*/
+  color: rgb(54, 54, 54);
+  font-size: 18px;
+}
+
+button:hover{
+  color: #ffff;
+  background-color: rgb(54, 54, 54);
+  border:none;
+}

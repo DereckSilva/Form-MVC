@@ -1,0 +1,20 @@
+{
+    "name": "derecksilva/pratica-php",
+    "description": "Praticando MVC com o PHP",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dereck Silva",
+            "email": "viniciusdereck39@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^5.4"
+    }
+}

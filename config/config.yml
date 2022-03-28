@@ -1,0 +1,7 @@
+database:
+ drive: "pdo_drive"
+ host: "127.0.0.1"
+ dbname: "pessoa"
+ user: "dereck"
+ password: "123456"
+ port: "3306"
